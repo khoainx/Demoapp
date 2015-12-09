@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
+  get 'sex/changed_sex'
+
+  get 'home/index'
+
   get 'app/mappage'
 
   get 'app/datapage'
-
-  get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
