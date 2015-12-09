@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'sex/changed_sex'
+
+  get 'home/index'
+
   get 'app/mappage'
 
   get 'app/datapage'
